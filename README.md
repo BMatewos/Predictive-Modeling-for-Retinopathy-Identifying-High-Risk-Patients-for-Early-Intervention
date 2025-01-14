@@ -66,22 +66,5 @@ This repository contains a dataset focused on identifying factors related to dia
 | 109612 | 1      | 9   | 4    | 29.8 | 1              | 1                 | 1           | 1        |
 | 109638 | 2      | 8   | 3    | 43.6 | 1              | 1                 | 1           | 1        |
 
----
 
-## Usage
 
-This dataset is ideal for:
-- **Exploratory Data Analysis (EDA)**: Analyze trends and relationships among features.
-- **Predictive Modeling**: Build classification models for identifying diabetes risks.
-- **Feature Engineering**: Create and optimize features for machine learning tasks.
-
----
-
-## Repository Structure
-
-```plaintext
-.
-├── data/                  # Folder containing the dataset
-├── notebooks/             # Jupyter notebooks for analysis
-├── src/                   # Source code for preprocessing and modeling
-├── README.md              # Project documentation
