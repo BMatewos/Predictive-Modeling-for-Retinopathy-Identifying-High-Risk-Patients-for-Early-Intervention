@@ -106,15 +106,5 @@ This approach ensures the dataset is balanced while retaining its key statistica
 
 ---
 
-## Repository Structure
-
-```plaintext
-.
-├── data/                  # Folder containing the dataset
-├── images/                # Folder containing images (e.g., flowchart)
-│   └── data_balancing_flowchart.jpg
-├── notebooks/             # Jupyter notebooks for analysis
-├── src/                   # Source code for preprocessing and modeling
-├── README.md              # Project documentation
 
 
