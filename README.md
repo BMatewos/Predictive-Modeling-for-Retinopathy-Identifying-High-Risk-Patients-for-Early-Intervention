@@ -66,5 +66,54 @@ This repository contains a dataset focused on identifying factors related to dia
 | 109612 | 1      | 9   | 4    | 29.8 | 1              | 1                 | 1           | 1        |
 | 109638 | 2      | 8   | 3    | 43.6 | 1              | 1                 | 1           | 1        |
 
+## Data Balancing Techniques and Strategies
+
+To address class imbalance within the dataset, the following data balancing strategy was implemented. This ensures that the analysis and predictive models built from the data do not suffer from bias toward the majority class (patients without retinopathy).
+
+### Process Overview
+![Data Balancing Flowchart](images/data_balancing_flowchart.jpg)
+
+The flowchart above illustrates the data balancing strategy in detail.
+
+### Explanation
+
+1. **Data Overview**:
+   - The dataset initially contained 9,005 records.
+   - After filtering invalid or incomplete records, 8,208 valid records remained.
+
+2. **Class Separation**:
+   - 252 patients with retinopathy.
+   - 7,956 patients without retinopathy.
+
+3. **Feature Selection**:
+   - Continuous variables (e.g., Age, BMI) and categorical variables (e.g., Race) were retained.
+
+4. **Statistical Comparison**:
+   - **Kolmogorov-Smirnov Test**: Evaluated the distribution similarity for continuous variables.
+   - **Chi-Squared Test**: Assessed the dependency of categorical variables on the target.
+
+5. **Sampling**:
+   - 1,000 random samples were generated from the majority class.
+   - The sample with the highest statistical grade (aggregated p-values) was selected.
+
+6. **Final Balanced Dataset**:
+   - 252 patients with retinopathy.
+   - 252 patients without retinopathy.
+   - **Total Records**: 504.
+
+This approach ensures the dataset is balanced while retaining its key statistical properties, making it suitable for robust predictive modeling and analysis.
+
+---
+
+## Repository Structure
+
+```plaintext
+.
+├── data/                  # Folder containing the dataset
+├── images/                # Folder containing images (e.g., flowchart)
+│   └── data_balancing_flowchart.jpg
+├── notebooks/             # Jupyter notebooks for analysis
+├── src/                   # Source code for preprocessing and modeling
+├── README.md              # Project documentation
 
 
