@@ -19,7 +19,7 @@ This repository contains a dataset focused on identifying factors related to dia
 
 ## Dataset Description
 
-- **Total Rows**: 9,005  
+- **Total Rows**: 9,005 
 - **Total Columns**: 9  
 
 ### Features
