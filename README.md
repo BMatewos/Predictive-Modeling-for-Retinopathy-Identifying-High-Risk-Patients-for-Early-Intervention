@@ -71,7 +71,8 @@ This repository contains a dataset focused on identifying factors related to dia
 To address class imbalance within the dataset, the following data balancing strategy was implemented. This ensures that the analysis and predictive models built from the data do not suffer from bias toward the majority class (patients without retinopathy).
 
 ### Process Overview
-![Data Balancing Flowchart](images/data_balancing_flowchart.jpg)
+![Picture2](https://github.com/user-attachments/assets/04470a62-2d94-445b-bfdf-8912128353ad)
+
 
 The flowchart above illustrates the data balancing strategy in detail.
 
