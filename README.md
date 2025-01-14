@@ -41,20 +41,6 @@ This repository contains a dataset focused on identifying factors related to dia
 
 ---
 
-## Data Profile
-
-### Continuous Features
-- **`Age`**
-- **`BMI`**
-
-### Categorical Features
-- **`Gender`**
-- **`Race`**
-- **`Blood Pressure`**
-- **`Cholesterol Level`**
-- **`Retinopathy`**
-
----
 
 ## Sample Data
 
