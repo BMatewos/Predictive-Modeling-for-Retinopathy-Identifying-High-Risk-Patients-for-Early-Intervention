@@ -6,5 +6,6 @@ Secondary Objectives:
 Assess the predictability of retinopathy  outcomes from diabetes and other health indicators.
 Provide targeted recommendations based on the impact of diabetes and other factors on retinopathy .
 Audience: Ophthalmologists and healthcare policy makers
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/42224ee1-3af0-4dc7-9bde-b740c78f249c" />
 
+
+![image](https://github.com/user-attachments/assets/c3a5330d-7815-4136-867f-51021231f458)
