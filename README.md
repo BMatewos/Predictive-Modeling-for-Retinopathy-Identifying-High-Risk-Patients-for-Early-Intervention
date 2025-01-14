@@ -9,3 +9,6 @@ Audience: Ophthalmologists and healthcare policy makers
 
 
 ![image](https://github.com/user-attachments/assets/c3a5330d-7815-4136-867f-51021231f458)
+
+<img width="703" alt="image" src="https://github.com/user-attachments/assets/492fc022-b139-406e-bf2f-9b6bf93cc2c4" />
+
