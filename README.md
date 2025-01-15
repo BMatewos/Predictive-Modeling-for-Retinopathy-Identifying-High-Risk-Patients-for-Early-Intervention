@@ -96,7 +96,7 @@ This approach ensures the dataset is balanced while retaining its key statistica
 As part of the data exploration process, we analyzed the relationships between key health-related variables with a focus on the presence of retinopathy. Below is a **pair plot** visualization that highlights potential correlations and distributions among variables like `Age`, `BMI`, and `Cholesterol Level`, categorized by the presence of retinopathy.
 
 ### Pair Plot Visualization
-![Pair Plot of Variables by Retinopathy](images/pairplot_retinopathy.jpg)
+<img width="459" alt="Picture3" src="https://github.com/user-attachments/assets/406e4065-e199-4ed7-ad57-8261923ffac7" />
 
 ### Insights from the Pair Plot:
 1. **Variable Relationships**:
