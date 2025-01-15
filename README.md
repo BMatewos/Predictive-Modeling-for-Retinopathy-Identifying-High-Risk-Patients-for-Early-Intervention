@@ -240,5 +240,72 @@ This bar chart highlights the relative importance of various features in predict
 These insights underline the critical role of diabetes status and BMI in identifying retinopathy risks while suggesting a minor influence from other factors.
 
 ---
+## Model Selection
+
+Three classification models—**Logistic Regression**, **Decision Tree**, and **Random Forest**—were evaluated for predicting retinopathy. The evaluation metrics include precision, recall, F1-score, and accuracy. Below are the results and confusion matrices for each model.
+
+---
+
+### Logistic Regression
+| Metric      | Precision | Recall | F1-Score | Support |
+|-------------|-----------|--------|----------|---------|
+| **Yes**     | 0.90      | 1.00   | 0.95     | 47      |
+| **No**      | 1.00      | 0.91   | 0.95     | 54      |
+| **Accuracy**|           |        | **0.95** | 101     |
+
+**Confusion Matrix**:
+![Confusion Matrix for Logistic Regression](images/confusion_matrix_logistic_regression.jpg)
+
+#### Observations:
+- Logistic Regression achieved an **accuracy of 95%**, demonstrating strong predictive performance.
+- It perfectly identified all positive cases (`Yes` for retinopathy) but misclassified 5 negative cases (`No`).
+
+---
+
+### Decision Tree
+| Metric      | Precision | Recall | F1-Score | Support |
+|-------------|-----------|--------|----------|---------|
+| **Yes**     | 0.89      | 0.87   | 0.88     | 47      |
+| **No**      | 0.89      | 0.91   | 0.90     | 54      |
+| **Accuracy**|           |        | **0.89** | 101     |
+
+**Confusion Matrix**:
+![Confusion Matrix for Decision Tree](images/confusion_matrix_decision_tree.jpg)
+
+#### Observations:
+- The Decision Tree achieved an **accuracy of 89%**, slightly lower than Logistic Regression.
+- It misclassified 6 positive cases (`Yes`) and 5 negative cases (`No`), indicating room for improvement.
+
+---
+
+### Random Forest Classifier
+| Metric      | Precision | Recall | F1-Score | Support |
+|-------------|-----------|--------|----------|---------|
+| **Yes**     | 0.87      | 1.00   | 0.93     | 47      |
+| **No**      | 1.00      | 0.90   | 0.95     | 54      |
+| **Accuracy**|           |        | **0.94** | 101     |
+
+**Confusion Matrix**:
+![Confusion Matrix for Random Forest Classifier](images/confusion_matrix_random_forest.jpg)
+
+#### Observations:
+- The Random Forest Classifier achieved an **accuracy of 94%**, slightly lower than Logistic Regression but higher than Decision Tree.
+- It perfectly identified all negative cases (`No`) but misclassified 2 positive cases (`Yes`).
+
+---
+
+### Comparison of Models
+| Model                  | Accuracy | Precision (Yes) | Recall (Yes) | F1-Score (Yes) |
+|------------------------|----------|-----------------|--------------|----------------|
+| Logistic Regression    | 95%      | 0.90            | 1.00         | 0.95           |
+| Decision Tree          | 89%      | 0.89            | 0.87         | 0.88           |
+| Random Forest          | 94%      | 0.87            | 1.00         | 0.93           |
+
+#### Key Takeaways:
+- **Logistic Regression** is the top-performing model, with the highest accuracy and F1-score.
+- **Random Forest** is a competitive alternative, offering perfect recall for positive cases (`Yes`).
+- **Decision Tree** showed slightly lower performance, highlighting the need for further optimization.
+
+---
 
 
