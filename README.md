@@ -203,7 +203,6 @@ This visualization provides a clear depiction of the link between diabetes and r
 ---
 ## Principal Component Analysis (PCA)
 
-### PCA Explained Variance and Cumulative Variance
 ![image](https://github.com/user-attachments/assets/d460ed1e-dd4f-4cca-8b6b-4ee8a83b2301)
 
 These plots provide insights into the dimensionality reduction using Principal Component Analysis (PCA).
