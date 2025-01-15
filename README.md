@@ -171,7 +171,7 @@ This visualization emphasizes potential racial disparities in eye health, which 
 ---
 
 ### Box Plot: Distribution of BMI by Retinopathy Status
-<img width="671" alt="image" src="https://github.com/user-attachments/assets/40b074e8-17b9-4cf3-a001-9883ebdf7850" />
+<img width="808" alt="Screenshot 2025-01-14 at 9 29 59 PM" src="https://github.com/user-attachments/assets/17db03f7-d51d-4a18-8948-c75304559e85" />
 
 
 The box plot above illustrates the distribution of BMI values categorized by the presence or absence of retinopathy.
