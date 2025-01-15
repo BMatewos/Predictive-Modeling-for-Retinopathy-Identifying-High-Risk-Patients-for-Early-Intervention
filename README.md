@@ -185,7 +185,22 @@ The box plot above illustrates the distribution of BMI values categorized by the
 
 3. **Presence of Outliers**:
    - Both groups show the presence of outliers, indicating individuals with significantly higher BMI values beyond the typical range.
+---
+### Bar Chart: Diabetic Status vs. Retinopathy (Percentage)
+<img width="360" alt="image" src="https://github.com/user-attachments/assets/fa3f060b-85c6-407b-ac9b-937e5b799489" />
 
+The bar chart above illustrates the relationship between diabetic status and the presence of retinopathy, represented as percentages.
+
+### Observations:
+1. **Prevalence of Retinopathy in Diabetics**:
+   - The majority of individuals with retinopathy are diabetic, highlighting a strong association between diabetes and retinopathy.
+
+2. **Non-Diabetic Group**:
+   - All non-diabetics in this sample do not have retinopathy, indicating no presence of retinopathy in this group.
+
+This visualization provides a clear depiction of the link between diabetes and retinopathy, underscoring diabetes as a significant risk factor for retinopathy.
+
+---
 
 
 
