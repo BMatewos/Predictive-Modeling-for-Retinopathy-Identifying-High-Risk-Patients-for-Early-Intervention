@@ -150,10 +150,25 @@ This scatter plot visualizes the relationship between Age and BMI, categorized b
 This plot highlights the complexity of relationships between variables and reinforces the need for further statistical analysis or feature engineering.
 
 ---
+### Distribution of Eye Blindness by Race
+<img width="354" alt="image" src="https://github.com/user-attachments/assets/59aa71b8-4a9d-4f76-bd35-5998de2f64a0" />
 
-## Data Balancing Techniques and Strategies
+The bar chart above visualizes the distribution of eye blindness by racial groups, with a focus on the presence of retinopathy.
 
-To address class imbalance within the dataset, the following strategy was implemented:  
-(Refer to the previous section for a detailed explanation and flowchart.)
+### Observations:
+1. **High Prevalence in African American and White Groups**:
+   - Both African American and White groups show higher counts of blindness, with a marked increase in the presence of retinopathy (darker bars).
+   - This highlights the disproportionate impact of retinopathy in these racial groups.
+
+2. **Lower Variation in Mexican Americans**:
+   - Mexican Americans display the lowest variation in blindness across retinopathy status, indicating relatively consistent blindness rates regardless of retinopathy presence.
+
+3. **Other Groups**:
+   - Other Hispanic and "Others" categories display intermediate distributions, with slightly more variation between retinopathy statuses compared to Mexican Americans.
+
+This visualization emphasizes potential racial disparities in eye health, which can guide targeted research or healthcare interventions.
+
+---
+
 
 
