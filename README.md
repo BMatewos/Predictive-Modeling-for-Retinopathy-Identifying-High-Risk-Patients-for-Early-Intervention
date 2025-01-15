@@ -111,6 +111,26 @@ As part of the data exploration process, we analyzed the relationships between k
 
 This plot serves as an initial exploration to uncover potential patterns, which will inform feature selection and modeling steps.
 
+### Correlation Heatmap with p-values
+<img width="356" alt="Picture4" src="https://github.com/user-attachments/assets/56f36e94-63e7-4dd6-b33b-0d75c06a268d" />
+
+
+The heatmap above highlights the correlation coefficients (and corresponding p-values) between key variables in the dataset. This visualization is critical for understanding relationships and dependencies among variables, which helps in feature selection and predictive modeling.
+
+### Insights from the Correlation Heatmap:
+1. **Diagonal Cells**:
+   - The diagonal cells (marked with **1.00**) represent each variable's perfect correlation with itself, as expected.
+
+2. **Key Observations**:
+   - **BMI and Retinopathy**: A moderate negative correlation is observed between BMI and retinopathy, indicating that higher BMI might be associated with lower chances of retinopathy.
+   - **Retinopathy and Diabetes**: A strong positive correlation is seen between retinopathy and a diabetes diagnosis, signifying that individuals with retinopathy are more likely to have diabetes.
+
+3. **Statistical Significance**:
+   - The corresponding p-values for significant correlations are close to 0, indicating strong evidence against the null hypothesis and validating the relationships observed.
+
+This heatmap provides critical insights for hypothesis generation and informs the selection of features for predictive modeling.
+
 ---
+
 
 
