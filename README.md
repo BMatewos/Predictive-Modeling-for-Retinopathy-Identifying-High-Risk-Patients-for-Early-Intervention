@@ -218,5 +218,27 @@ These plots provide insights into the dimensionality reduction using Principal C
 
 These plots are essential for determining the optimal number of components to retain in PCA, balancing dimensionality reduction and information preservation.
 
+## Key Predictors of Retinopathy
+
+### Feature Importance
+<img width="427" alt="image" src="https://github.com/user-attachments/assets/159d7156-0dcb-49e4-9f4a-84e07474b549" />
+
+
+This bar chart highlights the relative importance of various features in predicting retinopathy.
+
+### Observations:
+1. **Diabetes Status**:
+   - The most significant predictor of retinopathy, contributing over **60%** to the model's decision-making process.
+
+2. **BMI**:
+   - The second most influential factor, contributing approximately **14%** to predictions.
+
+3. **Minor Contributors**:
+   - **Age**, **Blood Pressure**, **Cholesterol Level**, and **Race** each contribute less than **10%**.
+   - **Gender** has the least influence, with a contribution of around **1.6%**.
+
+These insights underline the critical role of diabetes status and BMI in identifying retinopathy risks while suggesting a minor influence from other factors.
+
+---
 
 
