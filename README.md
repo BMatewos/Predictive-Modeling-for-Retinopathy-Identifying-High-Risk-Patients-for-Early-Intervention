@@ -91,6 +91,26 @@ The flowchart above illustrates the data balancing strategy in detail.
 This approach ensures the dataset is balanced while retaining its key statistical properties, making it suitable for robust predictive modeling and analysis.
 
 ---
+## Exploratory Data Analysis
 
+As part of the data exploration process, we analyzed the relationships between key health-related variables with a focus on the presence of retinopathy. Below is a **pair plot** visualization that highlights potential correlations and distributions among variables like `Age`, `BMI`, and `Cholesterol Level`, categorized by the presence of retinopathy.
+
+### Pair Plot Visualization
+![Pair Plot of Variables by Retinopathy](images/pairplot_retinopathy.jpg)
+
+### Insights from the Pair Plot:
+1. **Variable Relationships**:
+   - Scatter plots in the matrix show potential relationships between pairs of variables.
+   - Continuous variables like `Age` and `BMI` demonstrate their distribution and possible trends in relation to retinopathy.
+
+2. **Class Differentiation**:
+   - The data is color-coded based on the presence of retinopathy (`1` for presence, `0` for absence), allowing for a clear distinction between the two groups.
+
+3. **Univariate Distributions**:
+   - Diagonal elements represent the distribution of individual variables, showing trends like the concentration of `Age` and `BMI` values in specific ranges.
+
+This plot serves as an initial exploration to uncover potential patterns, which will inform feature selection and modeling steps.
+
+---
 
 
