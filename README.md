@@ -131,6 +131,29 @@ The heatmap above highlights the correlation coefficients (and corresponding p-v
 This heatmap provides critical insights for hypothesis generation and informs the selection of features for predictive modeling.
 
 ---
+### Scatter Plot: Age vs. BMI by Retinopathy Status
+<img width="377" alt="Picture5" src="https://github.com/user-attachments/assets/9ebad63e-c2ca-445c-bec1-21450996de92" />
 
+
+This scatter plot visualizes the relationship between Age and BMI, categorized by the presence or absence of retinopathy.
+
+### Observations:
+1. **Data Spread**:
+   - Data points are spread across all age ranges, indicating varied BMI levels irrespective of retinopathy status.
+
+2. **Retinopathy Levels**:
+   - Orange markers represent patients with retinopathy, while blue markers denote those without.
+
+3. **Lack of Clear Trend**:
+   - No evident trend or pattern suggests a strong correlation between Age and BMI concerning the effects of retinopathy.
+
+This plot highlights the complexity of relationships between variables and reinforces the need for further statistical analysis or feature engineering.
+
+---
+
+## Data Balancing Techniques and Strategies
+
+To address class imbalance within the dataset, the following strategy was implemented:  
+(Refer to the previous section for a detailed explanation and flowchart.)
 
 
