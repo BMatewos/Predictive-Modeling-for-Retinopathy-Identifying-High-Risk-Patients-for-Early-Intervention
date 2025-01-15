@@ -170,5 +170,22 @@ This visualization emphasizes potential racial disparities in eye health, which 
 
 ---
 
+### Box Plot: Distribution of BMI by Retinopathy Status
+<img width="671" alt="image" src="https://github.com/user-attachments/assets/40b074e8-17b9-4cf3-a001-9883ebdf7850" />
+
+
+The box plot above illustrates the distribution of BMI values categorized by the presence or absence of retinopathy.
+
+### Observations:
+1. **Higher BMI in Retinopathy**:
+   - Individuals with retinopathy have higher BMI values on average compared to those without.
+
+2. **Median BMI Comparison**:
+   - The median BMI is slightly higher in the retinopathy group (31.0) compared to the non-retinopathy group (28.1).
+
+3. **Presence of Outliers**:
+   - Both groups show the presence of outliers, indicating individuals with significantly higher BMI values beyond the typical range.
+
+
 
 
