@@ -201,6 +201,23 @@ The bar chart above illustrates the relationship between diabetic status and the
 This visualization provides a clear depiction of the link between diabetes and retinopathy, underscoring diabetes as a significant risk factor for retinopathy.
 
 ---
+## Principal Component Analysis (PCA)
+
+### PCA Explained Variance and Cumulative Variance
+![image](https://github.com/user-attachments/assets/d460ed1e-dd4f-4cca-8b6b-4ee8a83b2301)
+
+These plots provide insights into the dimensionality reduction using Principal Component Analysis (PCA).
+
+### Observations:
+1. **Explained Variance Ratio (Left Plot)**:
+   - The plot demonstrates the proportion of variance captured by each Principal Component.
+   - The first component explains the majority of the variance, with diminishing contributions from subsequent components.
+
+2. **Cumulative Explained Variance (Right Plot)**:
+   - This plot shows the cumulative variance explained by adding each Principal Component sequentially.
+   - By the fourth component, almost all the variance (approximately 95%) is captured, indicating that the first few components are sufficient for dimensionality reduction.
+
+These plots are essential for determining the optimal number of components to retain in PCA, balancing dimensionality reduction and information preservation.
 
 
 
