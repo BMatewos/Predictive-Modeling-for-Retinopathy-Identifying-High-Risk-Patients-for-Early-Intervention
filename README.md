@@ -254,7 +254,7 @@ Three classification models—**Logistic Regression**, **Decision Tree**, and **
 | **Accuracy**|           |        | **0.95** | 101     |
 
 **Confusion Matrix**:
-![Confusion Matrix for Logistic Regression](images/confusion_matrix_logistic_regression.jpg)
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/3cb6736e-674e-4645-9af6-6793fe504d54" />
 
 #### Observations:
 - Logistic Regression achieved an **accuracy of 95%**, demonstrating strong predictive performance.
@@ -270,7 +270,8 @@ Three classification models—**Logistic Regression**, **Decision Tree**, and **
 | **Accuracy**|           |        | **0.89** | 101     |
 
 **Confusion Matrix**:
-![Confusion Matrix for Decision Tree](images/confusion_matrix_decision_tree.jpg)
+<img width="223" alt="image" src="https://github.com/user-attachments/assets/d4254347-25e6-404e-b727-bf648099d82b" />
+
 
 #### Observations:
 - The Decision Tree achieved an **accuracy of 89%**, slightly lower than Logistic Regression.
@@ -286,7 +287,7 @@ Three classification models—**Logistic Regression**, **Decision Tree**, and **
 | **Accuracy**|           |        | **0.94** | 101     |
 
 **Confusion Matrix**:
-![Confusion Matrix for Random Forest Classifier](images/confusion_matrix_random_forest.jpg)
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/f2584c64-9dce-4ba5-8611-3f501206f46a" />
 
 #### Observations:
 - The Random Forest Classifier achieved an **accuracy of 94%**, slightly lower than Logistic Regression but higher than Decision Tree.
